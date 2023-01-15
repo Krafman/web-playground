@@ -1,13 +1,12 @@
-function toggleDrawer() {
-  var drawer = document.getElementById("drawer");
-  drawer.classList.toggle("closed");
-}
+window.addEventListener("hashchange", navigateToPage);
 
-function navigateToPage(page) {
+function navigateToPage() {
   var content = document.getElementById("content");
+  var page = window.location.hash.substr(1);
+
   switch(page) {
     case "one":
-      fetch("modules/one/one.html")
+      fetch("./modules/one/one.html")
         .then(response => response.text())
         .then(data => {
           content.innerHTML = data;
@@ -27,5 +26,16 @@ function navigateToPage(page) {
           content.innerHTML = data;
         });
       break;
+    default:
+      content.innerHTML = "404 - Page not found";
   }
+}
+
+
+
+
+
+function toggleDrawer() {
+  var drawer = document.getElementById("drawer");
+  drawer.classList.toggle("closed");
 }
