@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/krafman.github.io/web-playground/static/css/main.073c9b0a.css",
-    "main.js": "/krafman.github.io/web-playground/static/js/main.bda4fe36.js",
-    "static/js/787.62449090.chunk.js": "/krafman.github.io/web-playground/static/js/787.62449090.chunk.js",
-    "static/media/logo.svg": "/krafman.github.io/web-playground/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/krafman.github.io/web-playground/index.html",
-    "main.073c9b0a.css.map": "/krafman.github.io/web-playground/static/css/main.073c9b0a.css.map",
-    "main.bda4fe36.js.map": "/krafman.github.io/web-playground/static/js/main.bda4fe36.js.map",
-    "787.62449090.chunk.js.map": "/krafman.github.io/web-playground/static/js/787.62449090.chunk.js.map"
+    "main.css": "/web-playground/static/css/main.073c9b0a.css",
+    "main.js": "/web-playground/static/js/main.9a49a28c.js",
+    "static/js/787.62449090.chunk.js": "/web-playground/static/js/787.62449090.chunk.js",
+    "static/media/logo.svg": "/web-playground/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/web-playground/index.html",
+    "main.073c9b0a.css.map": "/web-playground/static/css/main.073c9b0a.css.map",
+    "main.9a49a28c.js.map": "/web-playground/static/js/main.9a49a28c.js.map",
+    "787.62449090.chunk.js.map": "/web-playground/static/js/787.62449090.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bda4fe36.js"
+    "static/js/main.9a49a28c.js"
   ]
 }
