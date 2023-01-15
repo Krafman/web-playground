@@ -1,1 +1,23 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <button id="hamburger-button" onclick="toggleDrawer()">
+        <i class="material-icons">menu</i>
+      </button>
+    </div>
+    <div id="drawer" class="open">
+      <button class="drawer-button" onclick="navigateToPage('one')">One</button>
+      <button class="drawer-button" onclick="navigateToPage('two')">Two</button>
+      <button class="drawer-button" onclick="navigateToPage('three')">Three</button>
+    </div>
+    <div id="content">
+      <!-- Content for the different pages will go here -->
+    </div>
+  </body>
+</html>

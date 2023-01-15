@@ -1,0 +1,49 @@
+/* Drawer */
+#drawer {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #fafafa;
+  box-shadow: 2px 0px 5px #666;
+  transition: left 0.5s;
+  padding: 0 20px;
+}
+#drawer.closed {
+  left: -270px;
+}
+
+/* Drawer buttons */
+.drawer-button {
+  width: 100%;
+  padding: 16px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Header */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background: #3f51b5;
+  color: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hamburger-button {
+  margin-left: 20px;
+}
+
+/* Content */
+#content {
+  margin: 64px 0 0 270px;
+}
